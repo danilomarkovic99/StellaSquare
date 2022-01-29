@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 function navbar() {
-  const niz1 = ["Funds", "Docs", "Competition"];
+  const niz1 = ["Home", "Collections", "About Us"];
   const niz2 = ["", "https://kluks-dao.gitbook.io/kluks/", ""];
   const links = [];
   for (var i = 0; i < niz1.length; i++) {

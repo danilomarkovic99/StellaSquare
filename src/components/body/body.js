@@ -1,10 +1,20 @@
 import React from "react";
-import Blocks from "./blocks/block"
+import BlockMain from "./blockMain/blockMain";
+import BlockOne from "./BlockOne/BlockOne";
+import BlockTwo from "./BlockTwo/BlockTwo";
+import TimelineComp from "./TimelineComp/Timeline";
+import Footer from "./footer/footer";
 import "./body.css"
 function body() {
   return (
     <div className="body">
-      <Blocks/>
+      <div className = "body-container">
+      <BlockMain />
+      <BlockOne />
+      <BlockTwo />
+      <TimelineComp />
+      <Footer />
+      </div>
     </div>
   );
 }
