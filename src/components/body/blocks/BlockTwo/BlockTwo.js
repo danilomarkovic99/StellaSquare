@@ -19,7 +19,9 @@ function BlockTwo() {
             tempore deleniti perferendis alias cupiditate nemo numquam.
             Excepturi, nihil unde iure atque veritatis itaque iste maxime.
           </div>
-          <div className="container-right">Slika</div>
+          <div className="container-right">
+            <img src="./../../../../assets/images/crypto-2.jpeg" />
+          </div>
         </div>
       </div>
     </div>

@@ -18,7 +18,9 @@ function blockMain() {
           numquam. Excepturi, nihil unde iure atque veritatis itaque iste
           maxime.
         </div>
-        <div className="container-right">Slika</div>
+        <div className="container-right">
+          <img src="../../../../assets/images/crypto-1.png" />
+        </div>
       </div>
     </div>
   );

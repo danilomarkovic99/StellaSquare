@@ -1,11 +1,14 @@
 import React from "react";
+import image from "../../../assets/images/crypto-1.png"
 
 function BlockOne() {
   return (
     <div>
       <div className="block">
         <div className="container">
-          <div className="container-left">Slika</div>
+          <div className="container-left">
+            <img src={ image } />
+          </div>
           <div className="container-right">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
             vitae sapiente obcaecati molestiae? Necessitatibus minus unde

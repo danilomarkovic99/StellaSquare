@@ -5,7 +5,9 @@ function BlockOne() {
     <div>
       <div className="block">
         <div className="container">
-          <div className="container-left">Slika</div>
+          <div className="container-left">
+            <img  src={require("../../../../assets/images/crypto-3.jpg")} />
+          </div>
           <div className="container-right">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
             vitae sapiente obcaecati molestiae? Necessitatibus minus unde
